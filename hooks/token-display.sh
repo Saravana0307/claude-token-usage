@@ -10,3 +10,8 @@ fi
 # finished AFTER that prompt's Stop hook already cleared the accumulator)
 # from leaking into this prompt's cost report.
 rm -f "$HOME/.ctu/subagent-accumulator.json"
+
+# Import any observer sessions that completed during the previous turn.
+# Running here (UserPromptSubmit) captures sessions faster than waiting
+# for the next SessionStart.
+python3 "$HOME/.ctu/bin/import-observer-sessions.py" 2>/dev/null &
