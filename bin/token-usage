@@ -1,0 +1,3 @@
+#\!/bin/bash
+# Start Claude token usage web UI at localhost:7123
+python3 "$HOME/.ctu/token-server.py"
