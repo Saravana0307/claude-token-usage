@@ -1,0 +1,28 @@
+hooks/session-start.sh
+  973645cb446e3685 87
+hooks/token-display.sh
+  973645cb446e3685 13-17
+bin/import-observer-sessions.py
+  973645cb446e3685 1-147
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.22",
+  "base_commit_sha": "70e0d08814af271a34e694cf3fceefa53258ec7c",
+  "prompts": {
+    "973645cb446e3685": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5f319bd9-5285-4ed8-b1ad-c6f116e95151",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "saravanakumartaza <saravanakumar@tazapay.com>",
+      "messages": [],
+      "total_additions": 153,
+      "total_deletions": 149,
+      "accepted_lines": 153,
+      "overriden_lines": 0,
+      "messages_url": "https://usegitai.com/cas/8ca1ea34e997d4b92fc9ad902fd80a6d1da59a1e6db6a09ea5c60d0e5a5f6c30"
+    }
+  }
+}
