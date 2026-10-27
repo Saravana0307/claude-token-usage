@@ -24,7 +24,7 @@ Runs at `http://localhost:7123`:
 │  Usage by Model      │  Last 30 Days (chart)                        │
 │                                                                      │
 │  Sessions (12 total)                                                 │
-│  ▶ Session Mar 28 saravanakumar  claude-sonnet-4-6  $4.21           │
+│  ▶ Session Mar 28 alice          claude-sonnet-4-6  $4.21           │
 │    ▶ #1  "refactor auth module"              24k tok  $0.45         │
 │         ├─ Explore agent    12k tok  $0.18                          │
 │         ├─ Plan agent        8k tok  $0.08                          │
